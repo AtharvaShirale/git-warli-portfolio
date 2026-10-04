@@ -40,19 +40,17 @@ class ProfileData {
       'Flutter · Dart · CustomPainter',
       'https://github.com/AtharvaShirale/git-warli-portfolio',
     ),
-    // TODO: replace with real project
     Project(
-      'Project title (update me)',
-      'Short description of your second project.',
-      'Stack · goes · here',
-      'https://github.com/AtharvaShirale',
+      'Project 1',
+      'Details will be added soon.',
+      'Coming soon',
+      '',
     ),
-    // TODO: replace with real project
     Project(
-      'Project title (update me)',
-      'Short description of your third project.',
-      'Stack · goes · here',
-      'https://github.com/AtharvaShirale',
+      'Project 2',
+      'Details will be added soon.',
+      'Coming soon',
+      '',
     ),
   ];
 }

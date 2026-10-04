@@ -62,13 +62,15 @@ class ProjectsScreen extends StatelessWidget {
                 children: [
                   Text(pr.description,
                       style: TextStyle(color: p.sub, height: 1.5)),
-                  const SizedBox(height: 8),
-                  TextButton.icon(
-                    onPressed: () =>
-                        openLink(context, Uri.parse(pr.link)),
-                    icon: const Icon(Icons.open_in_new, size: 16),
-                    label: const Text('View on GitHub'),
-                  ),
+                  if (pr.link.isNotEmpty) ...[
+                    const SizedBox(height: 8),
+                    TextButton.icon(
+                      onPressed: () =>
+                          openLink(context, Uri.parse(pr.link)),
+                      icon: const Icon(Icons.open_in_new, size: 16),
+                      label: const Text('View on GitHub'),
+                    ),
+                  ],
                 ],
               ),
             ),

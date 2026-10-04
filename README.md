@@ -53,11 +53,11 @@ flutter run -d chrome
 
 ## Screenshots
 
-Screenshots coming soon — drop your captures into `docs/screenshots/`.
-
-![Home screen](docs/screenshots/home.png)
+![Home screen (Light Mode)](docs/screenshots/home.png)
+![Home screen (Dark Mode)](docs/screenshots/home-dark.png)
 ![Projects screen](docs/screenshots/projects.png)
-![Dark mode](docs/screenshots/dark.png)
+![Contact screen](docs/screenshots/contact.png)
+![Profile card flipped](docs/screenshots/flip.png)
 
 ---
 
